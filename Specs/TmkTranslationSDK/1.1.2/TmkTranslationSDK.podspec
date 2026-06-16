@@ -3,14 +3,14 @@ Pod::Spec.new do |s|
   s.version          = '1.1.2'
   s.summary          = 'Timekettle Translation SDK for iOS.'
   s.description      = 'Private binary distribution spec for TmkTranslationSDK.'
-  s.homepage         = 'https://github.com/timekettle/tmk-translation-sdk'
+  s.homepage         = 'https://github.com/timekettle/TmkTranslationSDK-xcframework'
   s.license          = { :type => 'Proprietary', :text => 'Copyright (c) Timekettle. All rights reserved.' }
   s.author           = { 'Timekettle' => 'ios@timekettle.co' }
   s.platform         = :ios, '15.0'
   s.swift_version    = '5.0'
 
   s.source = {
-    :git => 'git@github.com:timekettle/TmkTranslationSDK-xcframework.git',
+    :git => 'https://github.com/timekettle/TmkTranslationSDK-xcframework.git',
     :tag => "v#{s.version}"
   }
 
