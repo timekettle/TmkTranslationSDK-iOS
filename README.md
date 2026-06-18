@@ -37,6 +37,8 @@ Then run:
 pod install --repo-update
 ```
 
+`TmkTranslationSDK` and its Agora dependencies are delivered as dynamic frameworks. CocoaPods embeds these frameworks into the app bundle through the `[CP] Embed Pods Frameworks` build phase. Xcode's `User Script Sandboxing` must be set to `No` for the app target, otherwise the embed script can fail with `Operation not permitted` when it copies frameworks. The `post_install` hook above applies this setting automatically after `pod install`; if the setting is managed manually in Xcode, set `Build Settings > User Script Sandboxing` to `No`.
+
 ## Version Selection Examples
 
 Use the latest version published in this Specs repository:
