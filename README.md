@@ -9,7 +9,7 @@ This repository is a private CocoaPods Specs repository, not the SDK source repo
 It is intended to let third-party iOS apps integrate the binary SDK with:
 
 ```ruby
-pod 'TmkTranslationSDK', '1.1.2'
+pod 'TmkTranslationSDK', '1.2.0'
 ```
 
 after they add this private Specs source to their `Podfile`.
@@ -27,7 +27,7 @@ platform :ios, '15.0'
 target 'YourApp' do
   use_frameworks!
 
-  pod 'TmkTranslationSDK', '1.1.2'
+  pod 'TmkTranslationSDK', '1.2.0'
 end
 ```
 
@@ -47,33 +47,31 @@ Use the latest version published in this Specs repository:
 pod 'TmkTranslationSDK'
 ```
 
-Note: with the currently retained versions, CocoaPods will resolve the latest version to `1.1.2`.
+Note: with the currently retained versions, CocoaPods will resolve the latest version to `1.2.0`.
 
 Pin to an exact version:
 
 ```ruby
-pod 'TmkTranslationSDK', '1.1.2'
+pod 'TmkTranslationSDK', '1.2.0'
 ```
 
 Allow a minimum version:
 
 ```ruby
-pod 'TmkTranslationSDK', '>= 1.1.2'
+pod 'TmkTranslationSDK', '>= 1.2.0'
 ```
 
 Allow a version range:
 
 ```ruby
-pod 'TmkTranslationSDK', '>= 1.1.2', '< 2.0.0'
+pod 'TmkTranslationSDK', '>= 1.2.0', '< 2.0.0'
 ```
 
 Currently retained historical versions in this repository:
 
+- `1.2.0`
 - `1.1.2`
-- `1.1.1`
-- `1.1.0`
 - `1.0.0`
-- `0.1.0`
 
 ## Requirements
 
